@@ -12,12 +12,12 @@ namespace DDR_PROJECTAPIS.Models
 
         [ForeignKey("Item")]
         public Guid ItemId { get; set; }
-        public virtual Item Item { get; set; }
+        //public virtual Item Item { get; set; }
 
 
         [ForeignKey("Student")]
         public string StudentId { get; set; }
 
-        public virtual Student Student { get; set; }
+        //public virtual Student Student { get; set; }
     }
 }
