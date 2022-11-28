@@ -41,10 +41,7 @@ namespace DDR_PROJECTAPIS.Features.BorrowedItems.BorrowedItemsQuery
 
                                 };
                 return innerJoin;
-                //return (await _itemsContext.BorrowedItems.ToListAsync(cancellation)).Where(a => a.StudentId == request.StudentId);
             }
         }
-
-
     }
 }

@@ -37,13 +37,7 @@ namespace DDR_PROJECTAPIS.Features.BorrowedItems.BorrowedItemsQuery
 
                                 };
                 return innerJoin;
-
-                //List<object> BorrowedItems = (List<object>)(await _context.BorrowedItems.ToListAsync(cancellationToken)).Cast<object>();
-                //BorrowedItems.Concat();
-                ////return await _context.BorrowedItems.ToListAsync(cancellationToken);
-                //return BorrowedItems;
             }
-
         }
     }
 }
