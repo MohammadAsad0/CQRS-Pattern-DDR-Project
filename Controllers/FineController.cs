@@ -17,8 +17,5 @@ namespace DDR_PROJECTAPIS.Controllers
 
         [HttpGet]
         public async Task<IEnumerable<object>> GetAllFine() => await _mediator.Send(new GetAllFine.Query());
-        
-        [HttpGet("{id}")]
-        public async Task<object> GetFineByStudentId(string id) => await _mediator.Send(new GetFineByStudentId.Query { StudentId = id });
     }
 }
